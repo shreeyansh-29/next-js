@@ -1,0 +1,23 @@
+What is Pre-rendering?
+Pre-rendering refers to the process of generating HTML with the necessary data for a page in our app.
+Pre-rendering can result in better performance and SEO.
+
+React vs Next JS
+By default, Next JS pre-renders every page in the application.
+
+What does pre-render mean?
+Next JS generates HTML for each page in advance instead of having it all done by client-side JS. 
+
+Pre-rendering Contd.
+1. No Pre-rendering (Plain React.js app)
+
+Initial Load:                       Hydration:
+                   JS loads ----->  React components are initialized
+App is not rendered                 and App becomes interactive.
+
+2. Pre-rendering (Using Next.js)
+
+Initial Load:                       Hydration:
+                   JS loads ----->  React components are interactive
+Pre-rendered HTML                   and App becomes interactive
+is displyed                         
