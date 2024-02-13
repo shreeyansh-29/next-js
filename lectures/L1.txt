@@ -1,5 +1,5 @@
 What is Next.js
-The react framework for building production ready applications.
+The react framework for building production ready applications for web.
 React =>
 1. Not quite possible to build a full feature rich application ready to be deployed for production.
 2. React is a library for building user interfaces.
@@ -16,8 +16,8 @@ Why learn Next.js?
 Next.js simplifies the process of building a react app for production.
 
 1. File base routing => For adding routes in reactjs, we need to install 3-party lib, configure it and add code everytime to add routes.
-2. Pre-rendering => Generates html for each page in advance. It can result in better performance.
+2. Pre-rendering => Generates html for each page in advance instead of being done by client side JS. It can result in better performance.
 3. API routes => Can creates api.
-4. Support for CSS modules
+4. Support for CSS modules (Tailwind.css, styled-components)
 5. Authentication
 6. Dev and Prod build system

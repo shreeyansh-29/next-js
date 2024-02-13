@@ -1,0 +1,12 @@
+Next JS supports two forms of pre-rendering
+a. Static Generation
+b. Server-side Rendering
+
+Static Generation
+A method of pre-rendering where the HTML pages are generated at build time.
+The HTML with all the data that makes up the content of the web page are generated in advance when you build your app.
+Recommended method to pre-render pages whenever possible.
+Page can be build once, cached by CDN and served to the client almost instantly.
+Ex- Blog pages, e-commerce product pages, doc and marketing pages.
+
+NOTE: Next-JS pre-render all the page by default.
