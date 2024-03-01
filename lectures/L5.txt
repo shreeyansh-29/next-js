@@ -1,0 +1,8 @@
+Route Handlers
+
+We can create custom requets handlers for our routes using a feature called Route Handlers.
+Route handlers allow us to create RESTful endpoints, giving full conntrol over the response.
+There is no overghead of having to create and configure a serparate server.
+It is also greate for making external API requests.
+It runs on server-side, ensuring that sensitive information like private keys remains secure and never gtes shipped to the browser.
+It is equivalent of API routes in Page router.
