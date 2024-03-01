@@ -9,7 +9,8 @@ export async function GET(request: NextRequest) {
     
     return new Response('<h1>Profile API Data</h1>', {
         headers: {
-          "Content-Type": "text/html"
+          "Content-Type": "text/html",
+          "Set-Cookie": "theme=dark",
         }
     })
 }
